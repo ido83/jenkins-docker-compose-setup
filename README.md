@@ -38,3 +38,16 @@ services:
 ```
  docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 ```
+# An Example pipeline:
+```
+pipeline {
+    agent any
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
+```
