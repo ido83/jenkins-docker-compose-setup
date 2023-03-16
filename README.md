@@ -23,7 +23,7 @@ docker container run -d -p 8081:8080 -p 50000:50000 \
 ```
 
 # Install docker-compose:
-instractions url: 
+Instructions url: 
 ```
 https://docs.docker.com/compose/install/
 ```
